@@ -30,8 +30,8 @@ export default function RootLayout({
       <body
         className={`${plusJakartaSans.variable} ${geistMono.variable} antialiased`}
       >
-        <FloatingWhatsApp />
         {children}
+        <FloatingWhatsApp />
       </body>
     </html>
   );

@@ -6,6 +6,7 @@ import Navbar from '@/components/Navbar';
 import HeroSection from '@/components/HeroSection';
 import AboutSection from '@/components/AboutSection';
 import Footer from '@/components/Footer';
+import FloatingWhatsApp from '@/components/FloatingWhatsApp';
 import { Product } from '@/types';
 
 export default function Home() {
@@ -79,6 +80,7 @@ export default function Home() {
 
       <AboutSection />
       <Footer />
+      <FloatingWhatsApp />
 
       <style>{`
         @keyframes slideUp {
